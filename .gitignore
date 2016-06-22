@@ -1,0 +1,82 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @RichardJTorres
+ Unwatch 1
+  Star 0
+ Fork 0 RichardJTorres/flask-angular-wordcount
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
+Branch: master Find file Copy pathflask-angular-wordcount/.gitignore
+71f35e1  3 days ago
+@RichardJTorres RichardJTorres adding bower and npm
+1 contributor
+RawBlameHistory     65 lines (51 sloc)  627 Bytes
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+*.DS_Store
+
+#pycharm
+.idea/
+
+#node
+node_modules/
+
+#bower
+/static/bower_components/
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
