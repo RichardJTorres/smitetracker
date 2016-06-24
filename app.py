@@ -17,12 +17,12 @@ security = Security(app, user_datastore)
 @app.before_first_request
 def create_user():
     db.create_all()
-    user_datastore.create_user(email='matt@nobien.net', password='password')
+    user_datastore.create_user(email='rich', password='password')
     db.session.commit()
 
 
-@login_required
 @app.route('/')
+@login_required
 def index():
     return 'Hello World'
 
