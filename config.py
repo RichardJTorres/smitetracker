@@ -10,6 +10,8 @@ class Config(object):
     SECRET_KEY = 'this-really-needs-to-be-changed'
     SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL']
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+    DEV_ID = os.environ['DEV_ID']
+    AUTH_KEY = os.environ['AUTH_KEY']
 
 
 class ProductionConfig(Config):

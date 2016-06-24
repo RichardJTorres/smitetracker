@@ -5,6 +5,7 @@ from flask_security import Security, SQLAlchemyUserDatastore, login_required
 
 app = Flask(__name__)
 app.config.from_object(os.environ['APP_SETTINGS'])
+
 db = SQLAlchemy(app)
 from models import User, Role
 from player import api
