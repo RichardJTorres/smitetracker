@@ -1,4 +1,4 @@
-from flask.ext.security import UserMixin, RoleMixin
+from flask_security import UserMixin, RoleMixin
 from app import db
 
 roles_users = db.Table('roles_users',

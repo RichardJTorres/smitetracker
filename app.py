@@ -1,7 +1,7 @@
 import os
 from flask import Flask
-from flask.ext.sqlalchemy import SQLAlchemy
-from flask.ext.security import Security, SQLAlchemyUserDatastore, login_required
+from flask_sqlalchemy import SQLAlchemy
+from flask_security import Security, SQLAlchemyUserDatastore, login_required
 
 app = Flask(__name__)
 app.config.from_object(os.environ['APP_SETTINGS'])
